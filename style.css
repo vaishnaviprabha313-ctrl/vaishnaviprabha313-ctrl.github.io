@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #38bdf8;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.btn {
+    background: #38bdf8;
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
