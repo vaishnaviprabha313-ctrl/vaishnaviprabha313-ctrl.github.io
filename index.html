@@ -1,161 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Vaishnavi | Web Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi | Portfolio</title>
 
-<style>
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #f4f7fa;
-}
-
-header {
-    background: linear-gradient(90deg, #0077ff, #00c6ff);
-    color: white;
-    text-align: center;
-    padding: 40px;
-}
-
-header img {
-    width: 150px;
-    border-radius: 50%;
-    border: 4px solid white;
-}
-
-section {
-    padding: 40px;
-}
-
-h2 {
-    color: #0077ff;
-}
-
-.skills span {
-    background: #0077ff;
-    color: white;
-    padding: 8px 15px;
-    margin: 5px;
-    display: inline-block;
-    border-radius: 20px;
-}
-
-.projects {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.card {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 250px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.card img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-footer {
-    text-align: center;
-    background: #222;
-    color: white;
-    padding: 20px;
-}
-
-</style>
-
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Hello, I'm Vaishnavi 👋</h1>
+        <h2>Web Developer | Java Developer</h2>
+        <p>I build modern websites and Java applications.</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
 
-<img src="https://i.imgur.com/6VBx3io.png">
+    <div class="hero-image">
+        <img src="profile.jpg" alt="Vaishnavi">
+    </div>
+</section>
 
-<h1>Vaishnavi</h1>
 
-<p>Web Developer | Java Developer</p>
+<!-- ABOUT SECTION -->
+<section class="about">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate developer skilled in HTML, CSS, JavaScript, and Java.
+        I love creating attractive and functional websites.
+    </p>
+</section>
 
-</header>
 
-<section>
+<!-- SKILLS SECTION -->
+<section class="skills">
+    <h2>My Skills</h2>
 
-<h2>About Me</h2>
+    <div class="skill-container">
 
-<p>
-I am a passionate Web Developer skilled in HTML, CSS, Java, and GitHub.  
-I love building modern and responsive websites.
-</p>
+        <div class="skill">
+            <img src="html.png">
+            <p>HTML</p>
+        </div>
+
+        <div class="skill">
+            <img src="css.png">
+            <p>CSS</p>
+        </div>
+
+        <div class="skill">
+            <img src="js.png">
+            <p>JavaScript</p>
+        </div>
+
+        <div class="skill">
+            <img src="java.png">
+            <p>Java</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- PROJECT SECTION -->
+<section id="projects" class="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="project-container">
+
+        <div class="project">
+            <img src="project1.png">
+            <h3>Portfolio Website</h3>
+            <p>Built using HTML and CSS.</p>
+        </div>
+
+        <div class="project">
+            <img src="project2.png">
+            <h3>Java Project</h3>
+            <p>Student Management System using Java.</p>
+        </div>
+
+    </div>
 
 </section>
 
-<section>
 
-<h2>Skills</h2>
+<!-- VIDEO SECTION -->
+<section class="video">
 
-<div class="skills">
+    <h2>Project Demo</h2>
 
-<span>HTML</span>
-<span>CSS</span>
-<span>Java</span>
-<span>JavaScript</span>
-<span>GitHub</span>
-
-</div>
+    <video width="600" controls>
+        <source src="demo.mp4" type="video/mp4">
+    </video>
 
 </section>
 
-<section>
 
-<h2>Projects</h2>
+<!-- CONTACT -->
+<section class="contact">
 
-<div class="projects">
+    <h2>Contact Me</h2>
 
-<div class="card">
-
-<img src="https://i.imgur.com/fL8Qk3A.jpg">
-
-<h3>Portfolio Website</h3>
-
-<p>Personal portfolio built using HTML and CSS</p>
-
-</div>
-
-<div class="card">
-
-<img src="https://i.imgur.com/ZVQ7Z8R.jpg">
-
-<h3>Java Project</h3>
-
-<p>Java application with modern features</p>
-
-</div>
-
-</div>
+    <p>Email: your@email.com</p>
+    <p>GitHub: github.com/vaishnaviprabha313-ctrl</p>
 
 </section>
 
-<section>
-
-<h2>Contact</h2>
-
-<p>Email: your@email.com</p>
-
-<p>GitHub: github.com/vaishnaviprabh313-ctrl</p>
-
-</section>
-
-<footer>
-
-<p>© 2026 Vaishnavi | Web Developer</p>
-
-</footer>
 
 </body>
 </html>
